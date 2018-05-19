@@ -1,4 +1,3 @@
-
 function theBeatlesPlay(musicians, instruments){
   var musicianWithInstrument = [];
   var i;
@@ -7,3 +6,4 @@ function theBeatlesPlay(musicians, instruments){
   }
   return musicianWithInstrument
 }
+
