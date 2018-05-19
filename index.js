@@ -9,7 +9,10 @@ function theBeatlesPlay(musicians, instruments){
     "Drums"
   ]
   
-  var musicianWithInstrument=[];
+  var musicianWithInstrument=[
+    "",0
+    ""
+  ];
   var i;
   for (i=0; i<musicians.length; i++) {
     musicianWithInstrument[i]= musicians[i]+ " plays "+ instruments[i];
