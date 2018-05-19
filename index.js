@@ -1,3 +1,4 @@
+
 function theBeatlesPlay(musicians, instruments){
   var musicians = [
     "John Lennon",
@@ -15,8 +16,8 @@ function theBeatlesPlay(musicians, instruments){
   ];
   var i;
   for (i=0; i<musicians.length; i++) {
-    musicianWithInstrument[i]= `${musicians[i]} plays ${instruments[i]}`
+    return `${musicians[i]} plays ${instruments[i]}`
   }
-  return musicianWithInstrument;
 }
 
+["john lennon plays guitar", ]
