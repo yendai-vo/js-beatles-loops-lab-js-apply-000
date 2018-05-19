@@ -1,23 +1,9 @@
 
 function theBeatlesPlay(musicians, instruments){
-  var musicians = [
-    "John Lennon",
-    "Paul Mccarthy"1
-  ]
-  
-  var instruments = [
-    "Guitar",
-    "Drums"1
-  ]
-  
-  var musicianWithInstrument=[
-    "",0
-    ""1
-  ];
+  var musicianWithInstrument;
   var i;
   for (i=0; i<musicians.length; i++) {
-    return `${musicians[i]} plays ${instruments[i]}`
+    musicianWithInstrument[i] = `${musicians[i]} plays ${instruments[i]}`
   }
+  return musicianWithInstrument
 }
-
-["john lennon plays guitar", ]
