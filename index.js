@@ -7,14 +7,16 @@ function theBeatlesPlay(musicians, instruments){
   return musicianWithInstrument;
 }
 
+
+
 theBeatlesPlay(
   [
-    "John Lennon",
-    "Paul Mccarthy"
+    "John Lennon",  0
+    "Paul Mccarthy" 1
   ],
   [
-    "Guitar",
-    "Drums"
+    "Guitar", 0
+    "Drums"   1
   ]
 )
 
