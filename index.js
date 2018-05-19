@@ -8,6 +8,15 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 theBeatlesPlay(
-  [],
-  []
+  [
+    "John Lennon",
+    "Paul Mccarthy"
+  ],
+  [
+    "Guitar",
+    "Drums"
+  ]
 )
+
+"John lennon plays guitar"
+"Paul mccarythy plays drums"
